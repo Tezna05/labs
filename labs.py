@@ -1,3 +1,13 @@
+#objetos principales
+#habitacion: tipo(indubidual o doble) numero de habitacion, disponibilidad, reservante
+#hotel gestionalisacion y reservacion de habitaciones
+#huesped: nombre, identificacion, tiempo de estadia
+
+#relaciones
+#el huesped puede reservar una o mas habitaciones
+#una habitacion solo puede ser reservada por una persona
+#el hotel se encarga de gestionar que habitaciones estan disponibles y quienes las reservan
+
 class Habitacion:
     def __init__(self, numero, tipo):
         self.numero = numero
